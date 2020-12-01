@@ -25,8 +25,8 @@ class Game():
             line = file.readline()
         #關檔    
         random.shuffle(self.tango_list)
-        for i in range(0,10):
-            print(self.tango_list[i].kanji, self.tango_list[i].yomikata)
+        #for i in range(0,10):
+            #print(self.tango_list[i].kanji, self.tango_list[i].yomikata)
 
     def set_time(self, t):
         self.time=t
